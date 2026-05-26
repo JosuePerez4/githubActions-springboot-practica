@@ -13,5 +13,10 @@ public class helloWorldController {
     public String saludar() {
         return new String("Hello World");
     }
+
+    @GetMapping("/hello")
+    public String saludar2() {
+        return new String("Hello");
+    }
     
 }
