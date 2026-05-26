@@ -26,7 +26,7 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
         image: josueperez4/practicacicd-image
-        tags: latest
+        tags: may26
         registry: docker.io
         dockerfile: DockerFile
         username: ${{ secrets.DOCKER_USERNAME }}

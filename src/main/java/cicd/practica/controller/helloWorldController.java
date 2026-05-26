@@ -18,5 +18,10 @@ public class helloWorldController {
     public String saludar2() {
         return new String("Hello");
     }
+
+    @GetMapping("/ing-soft")
+    public String saludar3() {
+        return new String("Vaya mierda de clase");
+    }
     
 }
