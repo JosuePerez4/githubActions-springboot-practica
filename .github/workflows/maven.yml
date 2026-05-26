@@ -28,6 +28,6 @@ jobs:
         image: josueperez4/practicacicd-image
         tags: latest
         registry: docker.io
-        dockerfile: DockerFile
+        dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
