@@ -2,9 +2,9 @@ name: proyectoCiCd ci workflow
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "cicd" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "cicd" ]
 
 jobs:
   build:
